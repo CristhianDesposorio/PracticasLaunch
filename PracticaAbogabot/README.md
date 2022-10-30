@@ -19,52 +19,53 @@ Un despacho de abogados que quiere automatizar las demandas de sus clientes llen
 
 ### Diagrama de actividades
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/DA.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/DA.png)
 
 ### Buyer Persona
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/2.-persona_page-0001.jpg)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/2.-persona_page-0001.jpg)
 
 ### Publico objetivo
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/publico_objetivo.jpg)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/publico_objetivo.jpg)
 
 ### Wireframe
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/inicio.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/inicio.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/nosotros.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/nosotros.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/servicios.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/servicios.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/contacto.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/contacto.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/login.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/login.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/registro_usuario.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/registro_usuario.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/form_demanda.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/form_demanda.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/dashboard_cliente.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/dashboard_cliente.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Wireframe/dashborad_abogado.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Wireframe/dashborad_abogado.png)
 
 ### Figma
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/inicio.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/inicio.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/nosotros.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/nosotros.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/servicios.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/servicios.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/contacto.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/contacto.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/login.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/login.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/registro_usuario.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/registro_usuario.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/form_demanda.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/form_demanda.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/dashboard_cliente.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/dashboard_cliente.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/PracticaAbogabot/blob/main/Figma/dashborad_abogado.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/dashborad_abogado.png)
+
