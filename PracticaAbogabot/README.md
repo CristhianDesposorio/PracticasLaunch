@@ -51,21 +51,20 @@ Un despacho de abogados que quiere automatizar las demandas de sus clientes llen
 
 ### Figma
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/inicio.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/inicio.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/nosotros.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/nosotros.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/servicios.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/servicios.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/contacto.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/contacto.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/login.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/login.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/registro_usuario.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/registro_usuario.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/form_demanda.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/form_demanda.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/dashboard_cliente.png)
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/dashboard_cliente.png)
 
-![](https://github.com/CristhianDesposorio/PracticasLaunch/tree/main/PracticaAbogabot/dashborad_abogado.png)
-
+![](https://github.com/CristhianDesposorio/PracticasLaunch/blob/main/PracticaAbogabot/Figma/dashborad_abogado.png)
