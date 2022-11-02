@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/estilo.css">
+  <title>Dulce Molino</title>
+  <link rel="icon" type="image/png" href="./logo.PNG">
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a1a1915944.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- <div class="loader_bg" id="loader_bg">
+    <div class="loader"><img src="./assets/img/loading.gif" alt="#" /></div>
+  </div> -->
+
+  <header id="header">
+    <div class="divimagen">
+      <a href="index.html" id="logo">
+        <img src="./assets/img/logo.PNG" alt="logo" class="imagen">
+      </a>
+    </div>
+
+    <label for="toggle-1" class="toggle-menu">
+    </label>
+
+    <nav >
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+        <li><a href="nosotros.html"><i class="fa-solid fa-users"></i>Nosotros</a></li>
+        <li><a href="servicios.html"><i class="fa-solid fa-bell-concierge"></i>Servicios</a></li>
+        <li><a href="producto.html"><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <br><br><br><br><br>
+
+  <section class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/pastel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/pastel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/pastel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section>
+    <div class="d-flex justify-content-center mt-5">
+      <strong class="nuestro">Algunos de nuestros productos más pedidos..!</strong>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center mt-3">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./assets/img/prefe1.jpg" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Marilover</h5>
+                <p class="card-text">Pastel de keke con grajeas bañado de chantilli rosado con decoraciones floreadas
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./assets/img/prefe2.jpg" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Chocolover</h5>
+                <p class="card-text">Pastel con keke de chocolate bañado con chocolate de alta calidad y decorado con
+                  diversos productos A1.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <br>
+  <section class="statistics">
+    <div class="container">
+      <div class="statistics-counter">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="single-ststistics-box">
+              <div class="statistics-img">
+                <img src="./assets/img/counter1.png" alt="counter-icon" />
+              </div>
+              <!--/.statistics-img-->
+              <div class="statistics-content">
+                <div class="counter">2556</div>
+                <h3>Dias Trabajados</h3>
+              </div>
+              <!--/.statistics-content-->
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="single-ststistics-box">
+              <div class="statistics-img">
+                <img src="./assets/img/counter4.png" alt="counter-icon" />
+              </div>
+              <div class="statistics-content">
+                <div class="counter">856</div>
+                <h3>Clientes satisfechos</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-copyright">
+
+    <div class="container">
+      <div class="row foot-copyright">
+        <div class="col-sm-4">
+          <i class="fa-solid fa-location-pin"></i> &nbsp Direccion
+          <p>Carlos Izaguirre 291, Los Olivos</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa-solid fa-mobile"></i> &nbsp Telefono
+          <p>+51 945582265</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fa-regular fa-clock"></i> &nbsp Horario de atención
+          <p>Lunes a Sabado de 9 AM a 8 PM</p>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-sm-7">
+          <div class="foot-copyright">
+            <p>
+              &copy; Todos los derechos reservados. Diseñado y desarrollado por
+              <a href="#" target="_blank">Cristhian</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>

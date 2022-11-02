@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    background-color: rgb(11, 11, 97);
+}
+.container {
+    background-color: rgb(60, 63, 231);
+    position: relative;
+    width: 50px;
+    height: 68px;
+    margin: 9rem;
+    padding: 9rem;
+    top: 50%;
+    left: 28%;
+}
+
+.texto {
+    position: absolute;
+    font: 250% sans-serif;
+    color:#EBFCFB;
+    top: 10px;
+    left: 23%;
+}
+
+.usuario {
+    position: absolute;
+    width: 72%;
+    height: 35px;
+    top: 30%;
+    left: 15%;
+    border-radius: 6px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contraseña {
+    position: absolute;
+    width: 72%;
+    height: 35px;
+    top: 45%;
+    left: 15%;
+    border-radius: 6px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+    background-color: rgb(169, 169, 250);
+    position: absolute;
+    width: 74%;
+    height: 38px;
+    top: 60%;
+    left: 15%;
+    border-radius: 6px;
+    font-size: larger;
+}
+
+.texto2 {
+    color:#EBFCFB;
+    position: absolute;
+    top: 73%;
+    left: 29%;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.texto3 {
+    color:#EBFCFB;
+    position: absolute;
+    height: 35px;
+    top: 80%;
+    left: 24%;
+    border-radius: 6px;
+    font-size: 15px;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="login">
+            <form action="administrador.html">
+                <h1 class="texto">Bienvenido</h1>
+                <input type="text" placeholder="Usuario" class="usuario"/>
+                <input type="password" placeholder="Contraseña" class="contraseña"/>
+                <input type="submit" value="Login" class="button"/>
+                <h1 class="texto2">¿Perdiste la Contraseña?</h1>
+                <h1 class="texto3">¿No tienes cuenta? Registrate</h1>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

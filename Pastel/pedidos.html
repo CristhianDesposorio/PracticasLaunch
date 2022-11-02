@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administrativo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/estilo.css">
+    <link rel="icon" type="image/png" href="./logo.PNG">
+</head>
+
+<body>
+
+    <header id="header">
+
+        <label for="toggle-1" class="toggle-menu">
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="administrador.html"><i class="fa-solid fa-house"></i>Stock</a></li>
+                <li><a href="pedidos.html"><i class="fa-solid fa-users"></i>Pedidos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br><br><br>
+
+    <div class="container">
+        <h1 class="d-flex justify-content-center"><strong>Pedidos</strong></h1>
+        <br><br>
+        <button type="button" class="btn btn-primary" onclick="mostrar();" id="pendiente" disabled>Pendientes</button>
+        <button type="button" class="btn btn-primary" onclick="ocultar();" id="finalizado">finalizados</button>
+        <br><br>
+        <div id="Pendiente">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col"># Pedido</th>
+                        <th scope="col">Nombres y Apellids</th>
+                        <th scope="col">Celular</th>
+                        <th scope="col">Fecha de entrega</th>
+                        <th scope="col">Nro Detalle Pastel</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Accion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-04</td>
+                        <td>PENDIENTE</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Finalizar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-05</td>
+                        <td>PENDIENTE</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Finalizar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-06</td>
+                        <td>PENDIENTE</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Finalizar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-07</td>
+                        <td>PENDIENTE</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Finalizar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-08</td>
+                        <td>PENDIENTE</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Finalizar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-09</td>
+                        <td>PENDIENTE</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Finalizar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="Finalizado" style="display: none;">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col"># Pedido</th>
+                        <th scope="col">Nombres y Apellids</th>
+                        <th scope="col">Celular</th>
+                        <th scope="col">Fecha de entrega</th>
+                        <th scope="col">Nro Detalle Pastel</th>
+                        <th scope="col">Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-01</td>
+                        <td>TERMINADO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-02</td>
+                        <td>TERMINADO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Maria Zevallos Perez</td>
+                        <td>916589745</td>
+                        <td>21/11/2022</td>
+                        <td>D-03</td>
+                        <td>TERMINADO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+    <script>
+        function mostrar() {
+            document.getElementById('Pendiente').style.display = 'block';
+            document.getElementById('Finalizado').style.display = 'none';
+            document.getElementById('pendiente').disabled = true;
+            document.getElementById('finalizado').disabled = false;
+        }
+        function ocultar() {
+            document.getElementById('Pendiente').style.display = 'none';
+            document.getElementById('Finalizado').style.display = 'block';
+            document.getElementById('pendiente').disabled = false;
+            document.getElementById('finalizado').disabled = true;
+        }
+    </script>
+
+</body>
+
+</html>
