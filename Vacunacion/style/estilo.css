@@ -1,0 +1,121 @@
+/* body {
+    overflow-x: hidden
+} */
+
+.letra {
+    color: rgb(61, 61, 250);
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 70px;
+}
+
+.navega {
+    width: 685.5px;
+    background-color: white;
+}
+
+.navega2 {
+    /*width: 685.5px;*/
+    background-color: rgb(226, 243, 255);
+    width: 100%;
+}
+
+
+.database {
+    margin-right: 50px;
+    color: rgb(172, 170, 170);
+}
+
+.abajo {
+    padding: 10px
+}
+
+.boto {
+    background-color: blue;
+    color: white;
+}
+
+.lodava{
+    box-shadow: 0 0 30px #fff0f0;
+}
+
+/* seccion 1*/
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 60px solid rgb(224, 224, 224);
+    position: absolute;
+    margin: 0px 0 0em 3em;
+}
+
+.titulo1{
+    font-size: 5.6vw;
+}
+
+/*  FOOTER  */
+.foo {
+    background-color: rgb(185, 255, 255);
+}
+
+.about{
+    margin-left: 51.3vw;
+    margin-top: -8.5vw;
+}
+
+.how{
+    margin-left: 65.8vw;
+    margin-top: -8.6vw;
+}
+
+.faq{
+    margin-left: 79.9vw;
+    margin-top: -8.6vw;
+}
+
+/**/
+.chame {
+    margin-left: 210px;
+}
+
+.bord{
+    box-shadow: 0 0 10px #c9c9c9;
+}
+
+.rectangulo{
+    border: solid; 
+    border-radius: 10px;
+    border-color: #eeeeee;
+}
+
+.rectangulo:hover {
+    box-shadow: 0 0 30px #c9c9c9;
+}
+
+.triangulo_2 {
+    border-top: 60px solid transparent;
+    border-right: 60px solid #ccc;
+    border-bottom: 60px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    margin: 0px 0 0em 1288px;
+    z-index: 1;
+}
+
+.triangulo_2_2 {
+    border-top: 80px solid transparent;
+    border-right: 60px solid rgb(214, 214, 214);
+    border-bottom: 80px solid transparent;
+    /* height: 0;
+    width: 0; */
+    /* position: absolute;
+    margin: -35px 0 0em 1286px;*/
+    z-index: 1; 
+}
+
+.boton3:hover{
+    background:rgb(61, 61, 250);
+}
