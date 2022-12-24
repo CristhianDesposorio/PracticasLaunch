@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/estilo.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a1a1915944.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="inicio">
+
+        <section class="buscador_1">
+            <div class="circulo_superior">
+                <div class="circulo_medio">
+                    <div class="circulo_interno">
+                        <div class="interno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colores">
+                <div class="color_rojo">
+                    <div class="rojo"></div>
+                </div>
+                <div class="color_amarillo">
+                    <div class="amarillo"></div>
+                </div>
+                <div class="color_verde">
+                    <div class="verde"></div>
+                </div>
+            </div>
+
+            <div class="buscador_encabezado">
+                <svg>
+                    <path d="M 0 7
+                     H 140
+                     A 50 50, 0, 0, 1, 170 20
+                     L 185 30
+                     A 50 50, 0, 0, 0, 200 35
+                     H 700
+                     V 80
+                     H -200
+                     V 7
+                     Z
+                     "></path>
+                </svg>
+            </div>
+
+            <div class="buscador_contenido">
+                <div class="contenido_pantalla">
+                    <div class="pantalla_imagen"  style="border: solid;">
+                        <img class="imagen_pokemon" id="pokeImg" src="/img/pokebola.webp" alt="Pokebola">
+                        <h1 class="imagen_nombre" id="imagen_nombre" style="position: relative;">...</h1>
+                    </div>
+                    
+
+                    <for class="pantalla_entrada">
+                        <input class="entrada_input" id="pokeName" name="pokeName" type="text"
+                            placeholder="ID o nombre del pokemon">
+                        <button class="entrada_boton" id="btnPoke" onclick="fetchPokemon()"><i
+                                class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+                    </for>
+                </div>
+                <div class="contenido_botones">
+                    <div class="botones" style="margin-left: 5vw;">
+                        <button class="boton" type="submit"><i class="fa-solid fa-backward" style="font-size: 1vw;"></i></button>
+                        <button class="boton" type="submit"><i class="fa-solid fa-forward" style="font-size: 1vw;"></i></button>
+                    </div>
+                </div>
+                <button class="boton_ver-mas">Caracteristicas</button>
+
+            </div>
+
+        </section>
+
+
+        <section class="main_datos">
+
+            <button class="boton_ver-mas mt-4">Volver a buscar</button>
+            <div class="buscador_encabezado">
+                <svg>
+                    <path d="M 0 7
+                     H 140
+                     A 50 50, 0, 0, 1, 170 20
+                     L 185 30
+                     A 50 50, 0, 0, 0, 200 35
+                     H 700
+                     V 80
+                     H -200
+                     V 7
+                     Z
+                     "></path>
+                </svg>
+            </div>
+
+            <div class="datos_contenedor">
+                <div class="contenedor_tipo">
+                    <h2>TYPE:</h2>
+                    <div class="tipo" style="color: wheat;">
+                    </div>
+                </div>
+
+                <div class="contenedor_tipo">
+                    <h2>ABILITIES:</h2>
+                    <div class="habilidades" style="color: wheat;">
+                    </div>
+                </div>
+
+                <div class="contenedor_estadisticas">
+                    <div class="estadisticas_ataque">
+                        <div class="ataque" id="vida">
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                        </div>
+                        <span class="ataque_nombre">PS</span>
+                    </div>
+                    <div class="estadisticas_ataque">
+                        <div class="ataque" id="ataque">
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                        </div>
+                        <span class="ataque_nombre">ATK</span>
+                    </div>
+                    <div class="estadisticas_ataque">
+                        <div class="ataque" id="defensa">
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                        </div>
+                        <span class="ataque_nombre">DEF</span>
+                    </div>
+                    <div class="estadisticas_ataque">
+                        <div class="ataque" id="sp-ataque">
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                        </div>
+                        <span class="ataque_nombre">SP. ATK</span>
+                    </div>
+                    <div class="estadisticas_ataque">
+                        <div class="ataque" id="sp-defensa">
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                        </div>
+                        <span class="ataque_nombre">SP. DEF</span>
+                    </div>
+                    <div class="estadisticas_ataque">
+                        <div class="ataque" id="velocidad">
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                        </div>
+                        <span class="ataque_nombre">SPEED</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor_adorno">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="extra">
+                <span class="altura"></span>
+                <span class="peso"></span>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="/js/pokemon.js"></script>
+</body>
+</html>
